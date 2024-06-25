@@ -12,6 +12,14 @@ vim.g.have_nerd_font = true
 -- NOTE: You can change these options as you wish!
 --  For more options, you can see `:help option-list`
 
+-- set tab size
+vim.opt.cindent = true
+vim.opt.tabstop = 8
+vim.opt.shiftwidth = 4
+vim.opt.softtabstop = 4
+-- vim.opt.autoindent = true
+-- vim.opt.smartindent = true
+
 -- Make line numbers default
 vim.opt.number = true
 -- You can also add relative line numbers, to help with jumping.
@@ -811,8 +819,3 @@ require('lazy').setup({
 
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
-
--- set tab size
-vim.opt.ts = 8
-vim.opt.sw = 8
-vim.opt.sts = 8
